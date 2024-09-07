@@ -15,7 +15,7 @@ const productSchema = new Schema<IProduct>({
         type: Decimal128,
         required: true
     },
-    user: {
+    userId: {
         type: ObjectId,
         ref: 'User',
         required: true

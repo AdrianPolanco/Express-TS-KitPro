@@ -4,7 +4,7 @@ interface IProduct extends Document {
     name: string;
     description?: string;
     price: Decimal128;
-    user: ObjectId;
+    userId: ObjectId;
 }
 
 export default IProduct;
